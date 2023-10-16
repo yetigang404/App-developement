@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "309078044831",
+    "project_id": "inventory-paradise-fb",
+    "storage_bucket": "inventory-paradise-fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309078044831:android:cb08b3845c63efcd25b2aa",
+        "android_client_info": {
+          "package_name": "com.ucdavisgdsc.paradise.inventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309078044831-n10o1vk2jk0vo5ajaae44drh5psqveoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFji3ovS17gMc22JV73kAE4OsGAqhIZzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309078044831-n10o1vk2jk0vo5ajaae44drh5psqveoe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309078044831-elrrlc21go0irdktj4c94smj5b974mja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ucdavisgdsc.paradise.inventory"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

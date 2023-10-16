@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node dist/index.js",
+    "format": "prettier --write src",
+    "dev": "concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
+    "build": "tsc",
+    "gcp-build": "yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "@google-ai/generativelanguage": "^0.2.0",
+    "@google-cloud/datastore": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "typescript": "^5.0.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}

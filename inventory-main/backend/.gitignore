@@ -1,0 +1,13 @@
+node_modules
+dist
+tsconfig.tsbuildinfo
+.DS_Store
+.emulator
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+env_variables.yaml
